@@ -1,0 +1,39 @@
+gen = input("Mention your gender: ")
+yos = int(input("Your Years Of Service: "))
+qual = input("Your Qualification: ")
+
+if(gen == "Male" and yos>=5 and qual == "MS"):
+    print("Salary = PKR.90,000")
+
+elif(gen == "Male" and yos>=5 and qual == "MBA"):
+    print("Salary = PKR.90,000")
+
+elif(gen == "Male" and yos>=5 and qual == "BS"):
+    print("Salary = PKR.60,000")
+
+elif(gen == "Male" and yos>=5 and qual == "MCS"):
+    print("Salary = PKR.60,000")
+
+elif(gen == "Male" and yos<5 and qual == "BS"):
+    print("Salary = PKR.50,000")
+
+elif(gen == "Male" and yos<5 and qual == "MCS"):
+    print("Salary = PKR.50,000")
+
+elif(gen == "Male" and yos<5 and qual == "BBA"):
+    print("Salary = PKR.25,000")
+
+elif(gen == "Female" and yos>=5 and qual == "MBBS"):
+    print("Salary = PKR.75,000")
+
+elif(gen == "Female" and yos>=5 and qual == "BDS"):
+    print("Salary = PKR.60,000")
+
+elif(gen == "Female" and yos<5 and qual == "MBBS"):
+    print("Salary = PKR.40,000")
+
+elif(gen == "Female" and yos<5 and qual == "BDS"):
+    print("Salary = PKR.25,000")
+
+else:
+    print("Invalid Input or input does not meet our job requirements")
